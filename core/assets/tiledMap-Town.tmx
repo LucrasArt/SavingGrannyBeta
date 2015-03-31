@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="135" height="10" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="background3" tilewidth="70" tileheight="70">
+  <image source="background3.png" width="1200" height="720"/>
+ </tileset>
+ <tileset firstgid="327" name="houses" tilewidth="70" tileheight="70" spacing="1">
+  <image source="houses.png" width="852" height="709"/>
+ </tileset>
+ <tileset firstgid="447" name="middleplus1" tilewidth="70" tileheight="70">
+  <image source="middleplus1.png" width="2623" height="500"/>
+ </tileset>
+ <tileset firstgid="706" name="terrains" tilewidth="70" tileheight="70" spacing="1">
+  <image source="terrains.png" width="426" height="212"/>
+ </tileset>
+ <layer name="Background" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztzGdXDmAAgOE3q4xQJCszQkaSQijzX2bLllDKHiFKCdlZJZJVpKJw/Y7nPOfc19e7LJFI7GI3e9jLPvZzgIOUc4jDHOEoxzjOCcriI8jHSSo4RSWnOcNZqqjmHDXUcp4LXOQSl+Mj2McVrnKN69ygjpvc4jb13OEuDTRyjyaa4yPYx31aeMBDHtHKY57wlGc85wUvaeMVr3kTH8E+3vKOdjp4Tycf+EgXn+jmM1/4yje+0xMfwT56+cFP+vhFPwMM8ps/DDHMX/6RSBIjkuIj1MdIRjGaMSSTwljGMZ4JpDKRSUwmjXSmxEewj6lkMI1MpjODmcxiNlnMYS7zmM8CFpIdH8E+FrGYHJawlGXkspwVrGQVeawmnzUUsDY+gn0UUsQ61rOBYjayic2UUMoWtrKN7exgZ3wE+/gPmvTIiw==
+  </data>
+ </layer>
+ <layer name="Decoration-2" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKgDAQRNGQ+19LLGxyJFuRMdmBIKv5D6ZZhFgMUwqgbdUL1rFXL1iH2412yV2rOvgmtxu9DWFr/uWNbhxGkNuMbqh75D3kNWs31D3y5ojamKfNce/oy94N9e3of6J3ADEnnXKHlg==
+  </data>
+ </layer>
+ <layer name="Decoration-1" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt03VwE0EUx/HcUlyLu7W4u7sVd5fiUtzd3d0huLs7bXHXgeLu7m5fJp0hZO42OTj+YC6/mc8kudu57Nt3z2Jxxx31BCq//96vqK9zR1+O/sNzvMqzr+E6buAmbuG2wf95z4Tvgj81Byi2udiDvdin2ObiAA7iEA7jiGLr8zEcxwmcxCmcxhmcDT7Dc3yeRxAu4CIu4TKuKMb1VAiLJQQ8EBKhEBphhLG1mTF3qPuuYpuL+3iAh3iEx3iCp3iG53iBl3iF13iDt3iH9/iAj/iEz/iCr/iG7z/PmJ4pQt5TPUnB+pRIhdRIg7RIJ4ytzYwJyxmGQ3hEQEREQmREgSeiIhqiIwZiIhZiIw7iIh7iIwESIhESIwmSwgveSIbkQt5TPSnD+rIoh/KogIqoJIytrardvmrwvabOff6PSU+NGZARmZAZWZAV2ZAdOZATuZAbeZAX+ZAfBVAQhVAYRVAUxVAcJeCDkiiF0kLeUz1pz/oO6IhO6Iwu6CqMra0HeqIXeqOPCd6NytRYJXguqqG6+DUXtVAbdVAX9eCL+miAhmiExmiCpmiG5mgBP7REK7RGG7RFOyHvqZ5MYf1UTMN0zMBMzBLG1jYHczEP803wXthHbS76oh/6YwAGYhAGYwiGYhiGYwRGYhRGYwzGYhzGYwImYhImC3lPl2E5VmAlVmE11mCtQ1928HsndmE3/BGAQHRDd42Z11ub2TLbrmbHuViAhViExViCpS70bR3WYwM2YhM2Ywu2Yhu2C3lPjazPqjLzf1KbY6x2ZPec3Ve7rhXZM11Z62w/zq5bJZ9atTjbq9YeXT2bvz1nPd+1nvMDpHYNow==
+  </data>
+ </layer>
+ <layer name="Decoration" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztVMsOgjAQhG/wv/CsBz/AiHpS1ETjE/WiUTR+rtukmGZDS1u6gEknmXDZHabTgSCoH2kYBI/Q3ZwKO9j/IM4qatYJ5n+L2Hb/tp7ZfR+Bi5J7152j8mkCFx2W6bS5G7Jz23hmWi/EIm02dxZmnhWzf8PumnNI0AvW4VtFj6pvgdK/LZjfPjCSnNvUc1bQjS7aE/sT8fereqQDqmxTwWP+tPWYCRo4kzZ24w4+xvybODnoxgRmeohTtCf2B3cDZ6YLqmwvqBtRBY9L2JvzTFZ/0I1LyZlNPYt6Ml2Kbmxg78o58N1wgj34GHEeCjyZZp7rxQpdim5QQec8ukgELazRxm40gYTnEwtZxZLM6kKnmdf+QPXf8/Dw8HCNL9TAeJo=
+  </data>
+ </layer>
+ <layer name="Decoration+1" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztlcEKwjAMhpe93nbeAwwfbXhTvDlW9KivpWWEZaOtLXXbr+SD0lAamqR/06JQFEXB5kpue02O5LZ/iZ7GgcSNxuHjnBiv3O/z5XU7SxuRb+pO5vsPpGpZ7vf58rp8Kzlvhu+sJuy+EeoNaLq5v2NpabJ9XBJjrnfKsVnhXKs1zidHd/y/GnL/tYh/ShURz5AY86c7knUyNF9DZJnPISPWLuBrgGuwNbZOoVrtyaPc/swTaC2UCauLZ6Q2cnqIoqDyApEQKiQ=
+  </data>
+ </layer>
+ <layer name="Terrain" width="135" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztlk0OxCAIhQ33P5Vh460mXRCZF0B0Oos2fImxv4jPJ21rRVEURVEU/4GptU7zXB8/FZnT1cYL5lPcR3njjEsrptl71++qH7I+2Xgn4zJ4wPOG5IHPn4z3FjroNgx9PM+s7knMrnTHsdEb8hz2p2S9oXM59b61b1AfS9/d+Lv7k2m2Fd4/RLZuYKyonkT3PW9Y/tBEemN+O96wvOh5HtFxs7l6Ocp7mEu0XwZ9N8wt8obnhyfWjU6+5rg2u98UzEe/z9B7cSN9fvHGar/seCPjh0zd+ACWhL5q
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="135" height="10">
+  <object name="PlayerStart" x="0" y="350" width="70" height="70"/>
+  <object name="PlayerGoal" x="9380" y="140" width="70" height="70"/>
+  <object name="coin" x="560" y="280" width="70" height="70"/>
+  <object name="coin" x="1190" y="210" width="70" height="70"/>
+  <object name="coin" x="1610" y="280" width="70" height="70"/>
+  <object name="extra" x="3920" y="140" width="70" height="70"/>
+  <object name="coin" x="2380" y="140" width="70" height="70"/>
+  <object name="coin" x="2100" y="210" width="70" height="70"/>
+  <object name="coin" x="9030" y="140" width="70" height="70"/>
+  <object name="coin" x="8680" y="210" width="70" height="70"/>
+  <object name="coin" x="8470" y="280" width="70" height="70"/>
+  <object name="coin" x="8260" y="350" width="70" height="70"/>
+  <object name="coin" x="7560" y="420" width="70" height="70"/>
+  <object name="coin" x="7000" y="280" width="70" height="70"/>
+  <object name="coin" x="5740" y="280" width="70" height="70"/>
+  <object name="coin" x="4900" y="560" width="70" height="70"/>
+  <object name="coin" x="4620" y="560" width="70" height="70"/>
+  <object name="coin" x="4130" y="210" width="70" height="70"/>
+  <object name="coin" x="2660" y="280" width="70" height="70"/>
+  <object name="coin" x="2870" y="350" width="70" height="70"/>
+  <object name="coin" x="3290" y="70" width="70" height="70"/>
+  <object name="coin" x="4760" y="350" width="70" height="70"/>
+  <object name="coin" x="5250" y="140" width="70" height="70"/>
+  <object name="CheckPoint" x="5110" y="490" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="Physics" width="135" height="10">
+  <object x="0" y="420" width="280" height="280"/>
+  <object x="140" y="280" width="70" height="70"/>
+  <object x="1050" y="490" width="280" height="210"/>
+  <object x="1540" y="420" width="210" height="280"/>
+  <object x="490" y="490" width="280" height="210"/>
+  <object x="1890" y="490" width="420" height="210"/>
+  <object x="2380" y="420" width="70" height="70"/>
+  <object x="280" y="420" width="70" height="70"/>
+  <object x="0" y="0" height="420"/>
+  <object x="7280" y="0" width="2170"/>
+  <object x="9450" y="0" height="700"/>
+  <object x="7910" y="0"/>
+  <object x="6510" y="0" width="1470"/>
+  <object x="0" y="0" width="1610"/>
+  <object x="1680" y="0" width="910"/>
+  <object x="1610" y="0" width="70"/>
+  <object x="2590" y="0" width="1610"/>
+  <object x="4200" y="0" width="770"/>
+  <object x="4970" y="0" width="1540"/>
+  <object x="0" y="0" height="700"/>
+  <object x="2520" y="560" width="560" height="140"/>
+  <object x="3290" y="420" width="140" height="280"/>
+  <object x="3570" y="280" width="280" height="420"/>
+  <object x="3990" y="420" width="280" height="280"/>
+  <object x="4410" y="560" width="140" height="140"/>
+  <object x="4620" y="630" width="70" height="70"/>
+  <object x="4760" y="630" width="70" height="70"/>
+  <object x="4900" y="630" width="70" height="70"/>
+  <object x="5110" y="560" width="210" height="140"/>
+  <object x="5180" y="490" width="140" height="70"/>
+  <object x="5250" y="420" width="70" height="70"/>
+  <object x="5530" y="490" width="490" height="210"/>
+  <object x="6160" y="560" width="140" height="140"/>
+  <object x="6510" y="560" width="210" height="140"/>
+  <object x="6860" y="490" width="280" height="210"/>
+  <object x="7350" y="560" width="280" height="140"/>
+  <object x="7840" y="490" width="210" height="210"/>
+  <object x="8190" y="630" width="70" height="70"/>
+  <object x="8610" y="490" width="70" height="210"/>
+  <object x="8820" y="420" width="70" height="280"/>
+  <object x="8400" y="560" width="70" height="140"/>
+  <object x="9030" y="350" width="280" height="350"/>
+  <object x="9310" y="210" width="140" height="70"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="135" height="10">
+  <object x="630" y="420" width="70" height="70"/>
+  <object x="1190" y="420" width="70" height="70"/>
+  <object x="2030" y="420" width="70" height="70"/>
+  <object x="2660" y="490" width="70" height="70"/>
+  <object x="2940" y="490" width="70" height="70"/>
+  <object x="3360" y="350" width="70" height="70"/>
+  <object x="3710" y="210" width="70" height="70"/>
+  <object x="4060" y="350" width="70" height="70"/>
+  <object x="4480" y="490" width="70" height="70"/>
+  <object x="5600" y="420" width="70" height="70"/>
+  <object x="5880" y="420" width="70" height="70"/>
+  <object x="6230" y="490" width="70" height="70"/>
+  <object x="6930" y="420" width="70" height="70"/>
+  <object x="7420" y="490" width="70" height="70"/>
+  <object x="8190" y="560" width="70" height="70"/>
+  <object x="8400" y="490" width="70" height="70"/>
+  <object x="8610" y="420" width="70" height="70"/>
+  <object x="8820" y="350" width="70" height="70"/>
+ </objectgroup>
+</map>
