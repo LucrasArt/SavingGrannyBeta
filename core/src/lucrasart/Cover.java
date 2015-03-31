@@ -63,11 +63,11 @@ public class Cover extends AbstractScreen {
 		TextureRegion playR = new TextureRegion(flagEsp);
 		TextureRegionDrawable textDraw = new TextureRegionDrawable (playR);
 		
-		ImageButtonStyle ibs = new ImageButtonStyle(skin.get(ButtonStyle.class));
+		ImageButtonStyle ibsS = new ImageButtonStyle(skin.get(ButtonStyle.class));
 		
-		ibs.imageUp = textDraw;
+		ibsS.imageUp = textDraw;
 		
-		buttonEsp = new ImageButton(ibs);
+		buttonEsp = new ImageButton(ibsS);
 		//fin boton 1
 		
 		
@@ -134,7 +134,12 @@ public class Cover extends AbstractScreen {
 		
 		stage.act();
 		
-		batch.draw(cover, 0,0,cover.getWidth(), cover.getHeight()); // Dibujamos la textura
+		//batch.draw(cover, 0,0,cover.getWidth(), cover.getHeight()); // Dibujamos la textura
+		
+		
+		//batch.draw(cover, camera.position.x - cover.getWidth() * 0.5f,camera.position.y - cover.getHeight() * 0.5f,cover.getWidth(), cover.getHeight()); // Dibujamos la textura
+		
+		
 		
 		stage.draw();
 		

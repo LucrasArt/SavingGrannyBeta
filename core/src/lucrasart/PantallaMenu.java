@@ -290,7 +290,11 @@ public class PantallaMenu extends AbstractScreen {
 		
 		batch.begin();
 		
-		batch.draw(fondo,0,0,fondo.getWidth(), fondo.getHeight()); // Dibujamos la textura
+		//batch.draw(fondo,0, 0,fondo.getWidth(), fondo.getHeight());
+		
+		//batch.draw(fondo,camera.position.x - fondo.getWidth() * 0.5f, camera.position.y - fondo.getHeight() * 0.5f,fondo.getWidth(), fondo.getHeight()); // Dibujamos la textura
+		
+		
 
 		//batch.draw(titulo,200,50,500,500);
 		stage.draw();
